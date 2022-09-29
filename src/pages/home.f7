@@ -1,0 +1,226 @@
+<template>
+  <div class="page" data-name="home">
+
+<!-- 
+ <div class="appbar">
+  <bg-color-blue></bg-color-blue>
+    <div class="appbar-inner">
+   
+      <div class="left">
+        <a href="#" class="button button-small panel-toggle display-flex" data-panel="left">
+          <i class="f7-icons">menu</i>
+        </a>
+      </div>
+      <div class="right">
+        <div class="searchbar searchbar-inline">
+          <div class="searchbar-input-wrap">
+            <input type="text" placeholder="Search app" />
+            <i class="searchbar-icon"></i>
+            <div class="input-clear-button"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="panel panel-left panel-cover panel-init">
+    <div class="block">
+      <bg-color-blue>
+      <p>Acount</p>
+      <a href="#" class="tab-link-active" class="button button-fill login-screen-open" data-login-screen=".login-screen"> <i class="f7-icons">person_circle </i> <p>login</p>
+      </a>
+    </bg-color-blue>
+    </div>
+  </div> -->
+
+
+    <!-- Scrollable page content-->
+    <div class="page-content">
+<!--       
+    <div class="block-title">1 Slide Per View, 50px Between</div> -->
+    <div data-pagination='{"el": ".swiper-pagination"}' data-space-between="50"
+      class="swiper swiper-init demo-swiper">
+      <div class="swiper-pagination"></div>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="../assets/banner_01.jpg"></div></div>
+        <div class="swiper-slide"><img src="../assets/banner_02.jpg"></div></div>
+        <div class="swiper-slide"><img src="../assets/banner_03.jpg"></div></div>
+      </div>
+    </div>
+
+    <div class="block-title"></div>
+    <div class="searchbar-backdrop"></div>
+<form class="searchbar">
+  <div class="searchbar-inner">
+    <div class="searchbar-input-wrap">
+      <input type="search" placeholder="Search" />
+      <i class="searchbar-icon"></i>
+      <span class="input-clear-button"></span>
+    </div>
+    <!-- <span class="searchbar-disable-button">Cancel</span> -->
+  </div>
+</form>
+
+<!-- Berita -->
+<!-- <div class="page-content"> -->
+  <div class="block grid-resizable-demo">
+<div class="row">
+<div class="card demo-card-header-pic">
+  
+  <div class="col resizable"  style="background-image:url(../assets/banner_01.png)"
+    class="card-header align-items-flex-end">Trending</div>
+  <div class="card-content card-content-item">
+    <p>Pesan Tiket Damri Gambir - Basoetta dan Yogyakarta - Magelang Melaui Aplikasi KAI Access</p>
+      <p class="date">Posted on September 21, 2022 | Admin</p>
+  </div>
+  <div class="card-footer"><a href="#" class="link">Like</a><a href="#" class="link">Read more</a></div>
+  
+</div>
+<div class="card demo-card-header-pic">
+  <div  class="col resizable"  style="background-image:url(../assets/banner_01.png)"
+    class="card-header align-items-flex-end">Trending</div>
+  <div class="card-content card-content-padding">
+ 
+    <p>Pesan Tiket Damri Gambir - Basoetta dan Yogyakarta - Magelang Melaui Aplikasi KAI Access</p>
+      <p class="date">Posted on September 21, 2022 | Admin</p>
+  </div>
+  <div class="card-footer"><a href="#" class="link">Like</a><a href="#" class="link">Read more</a></div>
+</div>
+</div>
+</div>
+<!-- 
+<span>
+  <div class="card demo-card-header-pic">
+  <div style="background-image:url(../assets/banner_01.png)"
+    class="card-header align-items-flex-end">Lorem Ipsum</div>
+  <div class="card-content card-content-padding">
+ 
+    <p>Pesan Tiket Damri Gambir - Basoetta dan Yogyakarta - Magelang Melaui Aplikasi KAI Access</p>
+      <p class="date">Posted on September 21, 2022</p>
+  </div>
+  <div class="card-footer"><a href="#" class="link">Like</a><a href="#" class="link">Read more</a></div>
+</div>
+</span>
+ -->
+
+
+<!-- List berita -->
+<div class="card">
+  <div class="card-header">Berita Terbaru</div>
+  <div class="card-content">
+    <div class="list media-list no-ios-edges">
+      <ul>
+        <li class="item-content">
+          <div class="item-media">
+            <img src="../assets/banner_01.png" width="150" />
+          </div>
+          <div class="item-inner">
+            <div class="item-title-row">
+              <div class="item-title">Damri Premium</div>
+            </div>
+            <div class="item-subtitle">Damri</div>
+          </div>
+        </li>
+        <div class="card-footer"> <span>January 20, 2015</span><span>5 comments</span></div>
+        <li class="item-content">
+          <div class="item-media">
+            <img src="../assets/banner_02.jpg" width="150" />
+          </div>
+          <div class="item-inner">
+            <div class="item-title-row">
+              <div class="item-title">Damri Eksukutif</div>
+            </div>
+            <div class="item-subtitle">Damri</div>
+          </div>
+        </li>
+        <div class="card-footer"> <span>January 20, 2015</span><span>5 comments</span></div>
+        <li class="item-content">
+          <div class="item-media">
+            <img src="../assets/banner_03.jpg" width="150" />
+          </div>
+          <div class="item-inner">
+            <div class="item-title-row">
+              <div class="item-title">Damri Ekonomi</div>
+            </div>
+            <div class="item-subtitle">Damri</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="card-footer"> <span>January 20, 2015</span><span>5 comments</span></div>
+</div>
+
+
+      <!-- <div class="block block-strong">
+        <p>This is an example of tabs-layout application. The main point of such tabbed layout is that each tab contains independent view with its own routing and navigation.</p>
+
+        <p>Each tab/view may have different layout, different navbar type (dynamic, fixed or static) or without navbar like this tab.</p>
+      </div> -->
+      <!-- <div class="block-title">Navigation</div> -->
+      <!-- <div class="list">
+        <ul>
+          <li>
+            <a href="/about/" class="item-content item-link">
+              <div class="item-inner">
+                <div class="item-title">About</div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="/form/" class="item-content item-link">
+              <div class="item-inner">
+                <div class="item-title">Form</div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="block-title">Modals</div> -->
+      <!-- <div class="block block-strong">
+        <div class="row">
+          <div class="col-50">
+            <a href="#" class="button button-raised button-fill popup-open" data-popup="#my-popup">Popup</a>
+          </div>
+          <div class="col-50">
+            <a href="#" class="button button-raised button-fill login-screen-open" data-login-screen="#my-login-screen">Login Screen</a>
+          </div>
+        </div>
+      </div> -->
+
+      <!-- <div class="block-title">Panels</div>
+      <div class="block block-strong">
+        <div class="row">
+          <div class="col-50">
+            <a href="#" class="button button-raised button-fill panel-open" data-panel="left">Left Panel</a>
+          </div>
+          <div class="col-50">
+            <a href="#" class="button button-raised button-fill panel-open" data-panel="right">Right Panel</a>
+          </div>
+        </div>
+      </div> -->
+
+      <!-- <div class="list links-list">
+        <ul>
+          <li>
+            <a href="/dynamic-route/blog/45/post/125/?foo=bar#about">Dynamic (Component) Route</a>
+          </li>
+          <li>
+            <a href="/load-something-that-doesnt-exist/">Default Route (404)</a>
+          </li>
+          <li>
+            <a href="/request-and-load/user/123456/">Request Data & Load</a>
+          </li>
+        </ul>
+      </div> -->
+    </div>
+  </div>
+</template>
+<script>
+
+export default  () => {
+  return $render;
+  
+}
+</script>

@@ -1,0 +1,57 @@
+<template>
+    <div class="page" data-name="login">
+      <div class="navbar">
+        <div class="navbar-bg"></div>
+        <div class="navbar-inner sliding">
+          <div class="left">
+            <a href="#view-home" class="tab-link tab-link-active">
+              <i class="icon icon-back"></i>
+              <span class="if-not-md">Back</span>
+            </a>  
+          </div>
+          <div class="title">Login</div>
+        </div>
+      </div>
+      
+      <div class="page-content">
+        <form class="list" id="my-form">
+          <ul>
+            <li>
+            </li>
+            <li>
+                <div class="item-content item-input">
+                    <div class="item-inner">
+                      <div class="item-title item-label">Username</div>
+                      <div class="item-input-wrap">
+                        <input type="email" name="nama_pemohon" placeholder="Masukan Email" />
+                      </div>
+                    </div>
+                  </div>
+              <div class="item-content item-input">
+                <div class="item-inner">
+                  <div class="item-title item-label">Password</div>
+                  <div class="item-input-wrap">
+                    <input type="password" name="password" placeholder="Masukan Password Anda" />
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+    </li>
+    <li>
+  </div>
+</div>
+          
+        </form>
+        <div class="block block-strong row">
+          <div class="col"><a class="button button-fill convert-form-to-data" href="#">Login</a></div>
+          <div class="col"><a class="button button-fill convert-form-to-data" href="/register/">Register</a></div>
+        </div>
+      </div>
+    </div>
+  </template>
+    <script>
+    export default () => {
+      return $render;
+    };
+    </script>

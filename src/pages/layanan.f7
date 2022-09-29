@@ -1,0 +1,68 @@
+<template>
+  <div class="page" data-name="layanan">
+    <div class="navbar">
+      <div class="navbar-bg"></div>
+      <div class="navbar-inner sliding">
+        <div class="left">
+          <a href="#view-home" class="tab-link tab-link-active">
+            <i class="icon icon-back"></i>
+            <span class="if-not-md">Back</span>
+          </a>
+        </div> 
+        <div class="title">Layanan Informasi Publik</div>
+      </div>
+    </div>
+    <li></li>
+    <li></li>
+    <li></li>
+    <div class="block-title">Layanan</div>
+      <div class="card">
+        <div class="card-content">
+          <div class="list links-list no-ios-edges">
+            <ul>
+              <li><i class="f7-icons">doc_chart_fill</i><a href="#view-informasipublik" class="tab-link tab-link-active">Permohonan Informasi Publik</a> </li>
+            </ul>
+          </div>
+        
+          <!-- <div id="view-infoberkala" class="view view-init tab" data-name="infoberkala" data-url="/infoberkala/">
+          </div> -->
+        
+        </div>
+      </div>
+      <div class="block-title">Layanan</div>
+      <div class="card">
+        <div class="card-content">
+          <div class="list links-list no-ios-edges">
+            <ul>
+              
+              <li><i class="f7-icons">doc_chart</i><a href="#view-keberatan" class="tab-link tab-link-active">Permohonan Keberatan Informasi</a></li>
+ 
+            </ul>
+          </div>
+        
+          <!-- <div id="view-infoberkala" class="view view-init tab" data-name="infoberkala" data-url="/infoberkala/">
+          </div> -->
+        
+        </div>
+      </div>
+      <div class="block-title">Layanan</div>
+      <div class="card">
+        <div class="card-content">
+          <div class="list links-list no-ios-edges">
+            <ul>
+              <li><i class="f7-icons">doc_append</i><a href="#view-sengketa" class="tab-link tab-link-active">Permohonan Sengketa </a></li>
+            </ul>
+          </div>
+          <!-- <div id="view-infoberkala" class="view view-init tab" data-name="infoberkala" data-url="/infoberkala/">
+          </div> -->
+        
+        </div>
+      </div>
+      
+  </div>
+  </template>
+  <script>
+  export default () => {
+    return $render;
+  };
+  </script>

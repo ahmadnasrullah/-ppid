@@ -1,0 +1,94 @@
+<template>
+<div class="page" data-name="regulasi">
+  <div class="navbar">
+    <div class="navbar-bg"></div>
+    <div class="navbar-inner sliding">
+      <div class="left">
+        <a href="#view-home" class="tab-link tab-link-active">
+          <i class="icon icon-back"></i>
+          <span class="if-not-md">Back</span>
+        </a>
+      </div>
+      <div class="title">Regulasi</div>
+    </div>
+  
+  </div>
+  <li>
+  <li>  
+  <li> 
+   <div class="card data-table">
+    <table>
+      <thead>
+        <tr>
+          <th class="input-cell">
+            <span class="table-head-label">NO.</span>
+            <div class="input" style="width: 50px">
+              <!-- <input type="number" placeholder="Filter" /> -->
+            </div>
+          </th> 
+          <th class="input-cell">
+            <span class="table-head-label">Aturan</span>
+            <div class="input">
+              <!-- <input type="text" placeholder="Filter" /> -->
+            </div>
+          </th>
+          <th class="input-cell">
+            <span class="table-head-label">Keterangan</span>
+            <div class="input">
+              <!-- <input type="text" placeholder="Filter" /> -->
+            </div>
+          </th>
+          <th class="input-cell">
+            <span class="table-head-label">Download</span>
+            <div class="input input-dropdown">
+              <select>
+                <!-- <option value="All">All</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option> -->
+              </select>
+            </div>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>1</td>
+            <td>Damri</td>
+            <td>Deskripsi Keterangan Regulasi</td>                                 
+            <td><i class="f7-icons">arrow_down_doc</i> klik untuk download</td>
+        </tr>
+            <td>2</td>
+            <td>Damri</td>
+            <td>Deskripsi Keterangan Regulasi</td>                                 
+            <td><i class="f7-icons">arrow_down_doc</i> klik untuk download</td>
+        <tr>
+              <td>3</td>
+              <td>Damri</td>
+              <td>Deskripsi Keterangan Regulasi</td>                                 
+              <td><i class="f7-icons">arrow_down_doc</i> klik untuk download</td>
+          </tr>
+        <tr>
+            <td>4</td>
+            <td>Damri</td>
+            <td>Deskripsi Keterangan Regulasi</td>                                 
+            <td><i class="f7-icons">arrow_down_doc</i> klik untuk download</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Damri</td>
+          <td>Deskripsi Keterangan Regulasi</td>                                 
+          <td><i class="f7-icons">arrow_down_doc</i> klik untuk download</td>
+      </tr>
+      </tbody>
+    </table>
+  </li>         
+  </li>    
+  </li>                              
+  </div>
+</div>
+</template>
+<script>
+export default () => {
+  return $render;
+};
+</script>

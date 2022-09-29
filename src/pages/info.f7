@@ -1,0 +1,63 @@
+<template>
+  <div class="page" data-name="info">
+    <div class="navbar">
+      <div class="navbar-bg"></div>
+      <div class="navbar-inner sliding">
+        <div class="left">
+          <a href="#view-home" class="tab-link tab-link-active">
+            <i class="icon icon-back"></i>
+            <span class="if-not-md">Back</span>
+          </a>
+        </div>
+        <div class="title">Informasi Publik</div>
+      </div>
+    </div>
+  <li></li>
+  <li></li>
+  <li></li>
+    <div class="block-title">Informasi</div>
+      <div class="card">
+        <div class="card-content">
+          <div class="list links-list no-ios-edges">
+            <ul>
+              <li><i class="f7-icons">doc_chart_fill</i><a href="#view-infoberkala" class="tab-link tab-link-active">Berkala</a> </li>
+            </ul>
+          </div>
+        
+          <!-- <div id="view-infoberkala" class="view view-init tab" data-name="infoberkala" data-url="/infoberkala/">
+          </div> -->
+        
+        </div>
+      </div>
+
+      <div class="block-title">Informasi</div>
+      <div class="card">
+        <div class="card-content">
+          <div class="list links-list no-ios-edges">
+            <ul>
+              <li><i class="f7-icons">doc_chart</i><a href="#view-infosertamerta" class="tab-link tab-link-active">Serta Merta</a></li>
+            </ul>
+          </div>
+        
+          <!-- <div id="view-infoberkala" class="view view-init tab" data-name="infoberkala" data-url="/infoberkala/">
+          </div> -->
+        
+        </div>
+      </div>
+      <div class="block-title">Informasi</div>
+      <div class="card">
+        <div class="card-content">
+          <div class="list links-list no-ios-edges">
+            <ul>
+              <li><i class="f7-icons">doc_append</i><a href="#view-infosetiapsaat" class="tab-link tab-link-active">Seetiap Saat</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  </div>
+  </template>
+  <script>
+  export default () => {
+    return $render;
+  };
+  </script>

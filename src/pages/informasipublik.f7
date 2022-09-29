@@ -1,0 +1,166 @@
+<template>
+    <div class="page" data-name="informasipublik">
+      <div class="navbar">
+        <div class="navbar-bg"></div>
+        <div class="navbar-inner sliding">
+          <div class="left">
+            <a href="#view-layanan" class="tab-link tab-link-active">
+              <i class="icon icon-back"></i>
+              <span class="if-not-md">Back</span>
+            </a>  
+          </div>
+          <div class="title">Form Informasi Publik</div>
+        </div>
+      </div>
+      <div class="page-content">
+        <form class="list" id="my-form">
+          <ul>
+            <li>
+                <div class="item-content item-input">
+                    <div class="item-inner">
+                      <div class="item-title item-label">Kategori Pemohon</div>
+                      <div class="item-input-wrap">
+                        <select name="kategori_pemohon">
+                          <option value="male" selected="selected">Persorangan</option>
+                          <option value="female">Instansi/Perusahaan</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+            </li>
+            <li>
+                <div class="item-content item-input">
+                    <div class="item-inner">
+                      <div class="item-title item-label">Nama Lengkap</div>
+                      <div class="item-input-wrap">
+                        <input type="text" name="nama_pemohon" placeholder="Masukan Nama Lengkap" />
+                      </div>
+                    </div>
+                  </div>
+              <div class="item-content item-input">
+                <div class="item-inner">
+                  <div class="item-title item-label">E-mail</div>
+                  <div class="item-input-wrap">
+                    <input type="email" name="email" placeholder="Masukan E-mail Anda" />
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+                <div class="item-content item-input">
+                    <div class="item-inner">
+                      <div class="item-title item-label">Alamat</div>
+                      <div class="item-input-wrap">
+                        <input type="email" name="email" placeholder="E-mail" />
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                    <div class="item-content item-input">
+                        <div class="item-inner">
+                          <div class="item-title item-label">No Telpon</div>
+                          <div class="item-input-wrap">
+                            <input type="email" name="email" placeholder="Masukan No Telpon Anda" />
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                        <div class="item-content item-input">
+                            <div class="item-inner">
+                              <div class="item-title item-label">Pekerjaan</div>
+                              <div class="item-input-wrap">
+                                <input type="email" name="email" placeholder="Masukan Pekerjaan" />
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                            <li>
+                                <ul>
+                                <div class="item-title">Informasi Rincian</div>
+                            </li>
+                        </ul>
+                            <div class="item-content item-input">
+                                <div class="item-inner">
+                                  <div class="item-title item-label">Rincian Informasi</div>
+                                  <div class="item-input-wrap">
+                                    <input type="email" name="email" placeholder="Masukan Rincian Informasi" />
+                                  </div>
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                                <div class="item-content item-input">
+                                    <div class="item-inner">
+                                      <div class="item-title item-label">Tujuan Penggunan Informasi</div>
+                                      <div class="item-input-wrap">
+                                        <input type="email" name="email" placeholder="Tujuan Penggunan Informasi" />
+                                      </div>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li>
+        
+    <div class="block-title">Salinan informasi yang dibutuhkan:</div>
+    <div class="list">
+      <ul>
+        <li>
+          <label class="item-radio item-content">
+            <input type="radio" name="radio" value="Books" checked="checked"/>
+            <i class="icon icon-radio"></i>
+            <div class="item-inner">
+              <div class="item-title">Salinan Digital (Surat Elektronik)
+            </div>
+            </div>
+          </label>
+        </li>
+        <li>
+          <label class="item-radio item-content">
+            <input type="radio" name="radio" value="Drinks"/>
+            <i class="icon icon-radio"></i>
+            <div class="item-inner">
+              <div class="item-title">Salinan Cetak (Mengambil Langsung)</div>
+            </div>
+          </label>
+        </li>
+      </ul>
+    </div>
+
+    <div class="item-content item-input">
+        <div class="item-inner">
+          <div class="item-title">Identitas KTP/SIM/Paspori</div>
+          <div class="item-input-wrap">
+            <input type="file" name="email" placeholder="UPLOAD FILE" />
+          </div>
+        </div>
+      </div>
+
+      <div class="item-content item-input">
+        <div class="item-inner">
+          <div class="item-title">File Pendukung Lainnya (Opsional)</div>
+          <div class="item-input-wrap">
+            <input type="file" name="file-pendukung" placeholder="UPLOAD FILE" />
+          </div>
+        </div>
+      </div>
+
+    </li>
+    <li>
+  </div>
+</div>
+          
+        </form>
+        <div class="block block-strong row">
+          <div class="col"><a class="button button-fill convert-form-to-data" href="#">Submit</a></div>
+          <div class="col"><a class="button button-fill fill-form-from-data" href="#">Reset</a></div>
+        </div>
+      </div>
+    </div>
+  </template>
+    <script>
+    export default () => {
+      return $render;
+    };
+    </script>

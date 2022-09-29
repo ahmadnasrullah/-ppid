@@ -1,0 +1,96 @@
+<template>
+  <div class="page" data-name="profileppid">
+    <div class="page-content">
+    <div class="navbar">
+      <div class="navbar-bg"></div>
+      <div class="navbar-inner sliding">
+        <div class="left">
+          <a href="#view-home" class="tab-link tab-link-active">
+            <i class="icon icon-back"></i>
+            <span class="if-not-md">Back</span>
+          </a>
+        </div>
+        <div class="title">Hi- User 
+          <li>Selamat Datang  
+           di E-PPID Perum Damri </li> 
+           
+        </div>
+      </div>
+      </div>
+<!--     
+    </div>
+    <div class="page-content">
+      <div class="list links-list">
+        <ul>
+          ${products.value.map((product) => $h` 
+            <li><a href="/product/${product.id}/">${product.title}</a></li>
+          `)}
+        </ul>
+      </div>
+      ${products.value.length === 3 && $h`
+        <div class="block">
+          <button class="button button-fill" @click=${addProduct}>Add Product</Button>
+        </div>
+      `} -->
+        
+        <!-- <li>
+        <li> -->
+      <div class="card demo-card-header-pic-profileppid">
+        <p class="title">PROFIL PPID DAMRI</p>
+        <p>Pejabat Pengelola Informasi dan Dokumentasi (PPID) di Perum DAMRI mulai dibentuk pada tahun 2019 dengan organisasi berdasarkan Surat Keputusan Direksi Perum DAMRI Nomor SK.563/KP.004/ DAMRI-2018 tentang Pengangkatan Pejabat Pengelola Informasi dan Dokumentasi (PPID) di Lingkungan Perum DAMRI. Seiring dengan perkembangan dan kebutuhan organisasi, struktur organisasi PPID direvisi dan diperbaharui berdasarkan Surat Keputusan Direksi Perum DAMRI Nomor SK. 1564/KP/004/ DAMRI-2019 tentang Pengangkatan Pejabat Pengelola Informasi dan Dokumentasi (PPID) di Lingkungan Perum DAMR</p>
+       <ul>
+        <ul>
+          <ul>
+            <ul>
+            <ul>
+              <ul>
+                <ul>
+                  <div style="background-image:url(../assets/struktur-organisasi.jpg)"
+                  class="card-header align-items-flex-end"></div>
+                </ul>
+             </ul>
+          </ul>
+        </ul>
+      </ul>
+    </ul>
+  </ul>
+          <div class="card-content card-content-padding">
+            <p>Saat ini PPID Perum DAM RI dijabat oleh Kepala Divisi Sekretariat Perusahaan sebagai Atasan PPID. Dalam pelaksanaan tugasnya, PPID dibantu oleh pejabat fungsional pembantu yang terdiri dari jabatan fungsional pranata Komunikasi Perusahaan dan PKBL. Pembentukan PPID Perum DAMRI merupakan pelaksanaan amanat Undang-undang Nomor 14 Tahun 2008 tentang keterbukaan Informasi Publik yang diselenggarakan dalam rangka:   </p>
+            <P>Menjamin hak warga negara untuk mengetahui rencana pembuatan kebijakan publik, program kebijakan publik, dan proses pengambilan keputusan publik, serta alasan pengambilan suatu keputusan publik;                
+              Mendorong partisipasi masyarakat dalam proses pengambilan kebijakan publik;
+              Meningkatkan peran aktif masyarakat dalam pengambilan kebijakan publik dan pengelolaan Badan Publik yang baik;
+              Mewujudkan penyelenggaraan negara yang baik, yaitu yang transparan, efektif dan efisien, akuntabel serta dapat dipertanggungjawabkan;
+              Mengetahui alasan kebijakan publik yang mempengaruhi hajat hidup orang banyak;
+              Mengembangkan ilmu pengetahuan dan mencerdaskan kehidupan bangsa; dan/atau
+              Meningkatkan pengelolaan dan pelayanan informasi di lingkungan Badan Publik untuk menghasilkan layanan informasi yang berkualitas.
+              Pelayanan Informasi Publik di lingkungan Perum DAMRI berdasarkan azas Keterbukaan Informasi Publik yaitu:
+            </P>
+            <p>1.Setiap Informasi Publik bersifat terbuka dan dapat diakses oleh setiap Pengguna Informasi Publik</p>
+            <p>2.Informasi Publik yang dikecualikan bersifat ketat dan terbatas</p> 
+            <p>3.Setiap Informasi Publik harus dapat diperoleh setiap Pemohon Informasi Publik dengan cepat dan tepat waktu, biaya ringan, dan cara sederhana</p>
+        </div>
+      </div>
+      <!-- <li> -->
+       
+      <!-- </li> -->
+  <!-- </li>
+  </li> -->
+   </div>
+  </div>
+</template>
+<!-- <script>
+  export default (props, { $store }) => {
+    const products = $store.getters.products;
+
+    const addProduct = () => {
+      $store.dispatch('addProduct', {
+        id: '4',
+        title: 'Apple iPhone 12',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi tempora similique reiciendis, error nesciunt vero, blanditiis pariatur dolor, minima sed sapiente rerum, dolorem corrupti hic modi praesentium unde saepe perspiciatis.'
+      });
+    }
+
+    return $render;
+  }
+ 
+</script> -->

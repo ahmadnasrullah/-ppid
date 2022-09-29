@@ -1,0 +1,76 @@
+/* Custom color theme properties */
+:root {
+  --f7-theme-color: #3498DB;
+  --f7-theme-color-rgb: 52, 152, 219;
+  --f7-theme-color-shade: #2383c4;
+  --f7-theme-color-tint: #57aae1;
+  --f7-searchbar-input-border-width: 0px;
+  --f7-searchbar-input-border-color: transparent;
+  --f7-searchbar-input-text-color: #000;
+  --f7-searchbar-placeholder-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Your app custom styles here */
+.demo-swiper .swiper-slide {
+  // font-size: 25vv;
+  // font-weight: 25vw;
+  height: 26vw;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  justify-content: left;
+  align-items: right;
+  background: #fff;
+  color: #000;
+}
+
+// .demo-swiper .swiper-slide {
+//   box-sizing: border-box;
+//   border: 1px solid #ddd;
+//   background: #fff;
+// }
+
+.demo-swiper {
+  margin: 0px 0 35px;
+  font-size: 18px;
+  height: 250px;
+}
+
+// css Berita Headline
+.demo-card-header-pic .card-header {
+  height: 15vw;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.demo-card-header-pic-profileppid .card-header {
+  height: 40vw;
+  width: 60vw;
+  background-size: cover;
+  background-position: center;
+  color:#fff;
+  background-color: #57aae1;
+}
+
+// .demo-facebook-card .card-footer a {
+//   color: #81848b;
+//   font-weight: 2000;
+// }
+
+.demo-facebook-card .card-content img {
+  display: block;
+}
+// .demo-swiper.demo-swiper-auto .swiper-slide {
+//   width: 85%;
+// }
+
+// .demo-swiper.demo-swiper-auto .swiper-slide:nth-child(2n) {
+//   width: 70%;
+// }
+
+// .demo-swiper.demo-swiper-auto .swiper-slide:nth-child(3n) {
+//   width: 30%;
+// }
+
