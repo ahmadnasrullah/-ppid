@@ -1,0 +1,19 @@
+{
+  "cwd": "D:\\F7\\02",
+  "type": [
+    "web"
+  ],
+  "name": "ppid",
+  "framework": "core",
+  "template": "tabs",
+  "bundler": "vite",
+  "cssPreProcessor": "scss",
+  "theming": {
+    "customColor": true,
+    "color": "#3498DB",
+    "darkTheme": false,
+    "iconFonts": true,
+    "fillBars": false
+  },
+  "customBuild": false
+}
